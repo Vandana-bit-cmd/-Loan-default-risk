@@ -1,4 +1,4 @@
-# -Loan-default-risk
+# Loan-default-risk
 
 This repository showcases an end-to-end project focused on predicting loan defaults using a combination of Exploratory Data Analysis (EDA) and Machine Learning (ML) techniques. The project addresses a critical challenge faced by financial institutions: identifying high-risk applicants while ensuring capable customers are not rejected. The goal is to analyze patterns, gain insights, and implement predictive models to support informed decision-making in loan approvals.
 
