@@ -11,7 +11,9 @@ Customers with payment difficulties (e.g., late payments beyond a certain thresh
 Business Objectives: The primary aim of the project is to identify patterns and key factors that influence loan defaults. These insights can help the company: Deny loans to high-risk applicants. Reduce loan amounts for borderline applicants. Adjust interest rates for risky applicants.
 
 Project Workflow
-Exploratory Data Analysis (EDA):
+
+1. Exploratory Data Analysis (EDA):
+   
 A. Handling Missing Data: Identified and visualized missing data across variables. Imputed missing values using statistical methods (e.g., mean or median). Graph Used: Bar chart to show the proportion of missing values per variable.
 
 B. Identifying Outliers: Detected outliers in numerical variables using interquartile range (IQR) and statistical thresholds. Visualized outliers using box plots for better insights. Graph Used: Box plots to highlight the outliers in key variables.
@@ -22,10 +24,14 @@ D. Univariate, Segmented Univariate, and Bivariate Analysis: Performed univariat
 
 E. Correlation Analysis: Analyzed correlations between features and the target variable for different scenarios. Identified top indicators of loan default based on correlation coefficients. Graph Used: Heatmaps to visualize the strongest correlations.
 
-Machine Learning (ML) Models
+2.Machine Learning (ML) Models
+
 To predict loan defaults, the following machine learning models were trained and evaluated:
 
-A. Logistic Regression: A baseline linear model was used for binary classification. Achieved 91.5% accuracy on the test data. B. Random Forest Classifier: An ensemble model providing robust predictions. Achieved 91.4% accuracy, with feature importance analysis to highlight key predictors. C. Evaluation Metrics: Accuracy was calculated for both models. Confusion matrices were generated to evaluate prediction performance. D. Feature Importance: Visualized the importance of features in predicting loan defaults using bar charts.
+A. Logistic Regression: A baseline linear model was used for binary classification. Achieved 91.5% accuracy on the test data. 
+B. Random Forest Classifier: An ensemble model providing robust predictions. Achieved 91.4% accuracy, with feature importance analysis to highlight key predictors.
+C. Evaluation Metrics: Accuracy was calculated for both models. Confusion matrices were generated to evaluate prediction performance.
+D. Feature Importance: Visualized the importance of features in predicting loan defaults using bar charts.
 
 Results and Insights Identified patterns in customer behaviour and loan attributes influencing defaults. Determined the most significant variables, such as income level, loan amount, and credit history. Built robust predictive models with over 91% accuracy to assist in decision-making.
 
@@ -43,27 +49,4 @@ Visualizations The project includes various visualizations to enhance interpreta
 
 Business Impact This project enables financial institutions to: Reduce default rates by identifying high-risk applicants. Increase profitability by optimizing loan approval strategies. Enhance customer trust with fair and data-driven decisions.
 
-About
-No description, website, or topics provided.
-Resources
- Readme
- Activity
-Stars
- 0 stars
-Watchers
- 1 watching
-Forks
- 0 forks
-Report repository
-Releases
-No releases published
-Packages
-No packages published
-Contributors
-1
-@ds-devesh
-ds-devesh Devesh Anjane
-Languages
-Jupyter Notebook
-100.0%
-Footer
+
